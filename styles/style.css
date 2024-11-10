@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -67,7 +69,8 @@ button {
   align-items: end;
   gap: 30px;
   width: 100%;
-  padding: 133px 30px;
+  margin: auto;
+  padding: 0 30px; 
 }
 
 .result {
