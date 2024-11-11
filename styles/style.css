@@ -124,16 +124,18 @@ img {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   border-inline: none;
-  padding: 4px 0;
+  padding: 6px 0;
   color: #fff;
+  font-family: inherit;
+  font-weight: normal;
+  line-height: 1.2;
   background-color: inherit;
   appearance: none;
-  /* line-height: 1.2; */
 }
 
 .search-form__textfield::placeholder {
-  font-size: 16px;
-  /* letter-spacing: 0; */
+  font-size: 18px;
+  /* letter-spacing: 0.2; */
 }
 
 .search-form__label:has(:focus-visible) {
@@ -205,7 +207,7 @@ img {
 .search-form__submit-button {
   /* margin-bottom: 5px; */
   align-self: end;
-  padding: 6px 73px;
+  padding: 6px 72px;
 }
 
 /* Content Section*/
