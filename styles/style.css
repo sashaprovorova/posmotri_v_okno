@@ -129,13 +129,13 @@ img {
   appearance: none;
 }
 
-.search-form__label:active {
-  border: 1px solid currentColor;
-}
-
 .search-form__label:has(:focus-visible) {
   outline: 1px solid currentColor;
   outline-offset: 2px;
+}
+
+.search-form__label:has([type='text']):active {
+  border: 1px solid currentColor;
 }
 
 .search-form__label:has([type='checkbox']):hover {
@@ -163,7 +163,7 @@ img {
   width: 16px;
   height: 16px;
   margin-top: 2px;
-  margin-left: 2px;
+  margin-right: 10px;
   outline: 1px solid currentColor;
   outline-offset: 1px;
   background-color: #fff;
