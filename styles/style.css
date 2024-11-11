@@ -69,7 +69,7 @@ img {
   gap: 30px;
   width: 100%;
   margin: auto;
-  padding: 0 30px;
+  padding: 0 30px 30px;
 }
 
 /* Result Section*/
@@ -78,7 +78,8 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 16px;
+  gap: 14px;
+  margin-bottom: 8px;
 }
 
 .result__video-container {
@@ -97,7 +98,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
 }
 
 .search-form__fieldset {
@@ -105,6 +106,7 @@ img {
   flex-direction: column;
   gap: 5px;
   border: none;
+  /* margin-bottom: 10px; */
 }
 
 .search-form__label {
@@ -119,14 +121,20 @@ img {
 }
 
 .search-form__textfield {
-  min-width: 185px;
+  min-width: 225px;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   border-inline: none;
-  padding: 3px 0;
+  padding: 4px 0;
   color: #fff;
   background-color: inherit;
   appearance: none;
+  /* line-height: 1.2; */
+}
+
+.search-form__textfield::placeholder {
+  font-size: 16px;
+  /* letter-spacing: 0; */
 }
 
 .search-form__label:has(:focus-visible) {
@@ -153,6 +161,7 @@ img {
   display: inline-block;
   width: 20px;
   height: 20px;
+  /* margin-left: 10px; */
   margin-right: 5px;
   border: 1px solid currentColor;
   vertical-align: middle;
@@ -195,6 +204,8 @@ img {
 }
 
 .search-form__submit-button {
+  /* margin-bottom: 5px; */
+  align-self: end;
   padding: 6px 73px;
 }
 
@@ -212,7 +223,7 @@ img {
 .title {
   font-family: Oswald, sans-serif;
   font-size: 75px;
-  line-height: 0.94;
+  line-height: 94%;
   text-transform: uppercase;
 }
 
@@ -223,11 +234,12 @@ img {
 .content__list {
   width: auto;
   height: 300px;
-  padding: 1px;
+  padding: 0 1px 1px;
   overflow-y: auto;
 }
 
 .content__list-item {
+  width: 398px;
   height: 107px;
 }
 
@@ -259,7 +271,7 @@ img {
 .content__video-card-thumbnail {
   display: block;
   width: 194px;
-  height: 107px;
+  height: 105px;
   object-fit: cover;
   object-position: right;
 }
@@ -294,7 +306,7 @@ img {
 
 .more-button {
   width: 98%;
-  margin-bottom: 1px;
+  /* margin-bottom: 5px; */
   margin-left: 2px;
   padding-top: 6px;
   padding-bottom: 6px;
