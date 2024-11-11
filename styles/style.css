@@ -124,18 +124,14 @@ img {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   border-inline: none;
-  padding: 6px 0;
+  padding: 2px 0;
   color: #fff;
   font-family: inherit;
   font-weight: normal;
-  line-height: 1.2;
+  font-size: inherit;
+  /* line-height: 1.2; */
   background-color: inherit;
   appearance: none;
-}
-
-.search-form__textfield::placeholder {
-  font-size: 18px;
-  /* letter-spacing: 0.2; */
 }
 
 .search-form__label:has(:focus-visible) {
@@ -160,8 +156,8 @@ img {
 
 .search-form__pseudo-checkbox {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 19px;
   /* margin-left: 10px; */
   margin-right: 5px;
   border: 1px solid currentColor;
@@ -170,8 +166,8 @@ img {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
   margin-top: 2px;
   margin-right: 10px;
   outline: 1px solid currentColor;
