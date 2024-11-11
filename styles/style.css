@@ -138,7 +138,7 @@ img {
   outline-offset: 2px;
 }
 
-.search-form__label:hover {
+.search-form__label:has([type='checkbox']):hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -231,17 +231,14 @@ img {
   height: 107px;
 }
 
-.content__list-item:active {
+.content__list-item:active,
+.content__card-link_current {
   background-color: #545050;
 }
 
 .content__list-item:hover {
   text-decoration: underline;
   text-underline-offset: 0.4rem;
-}
-
-.content__card-link_current {
-  background-color: #545050;
 }
 
 .content__list-item:not(:last-child) {
